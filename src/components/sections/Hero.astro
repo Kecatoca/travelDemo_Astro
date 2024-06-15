@@ -4,17 +4,7 @@ import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import ByNumber from "./ByNumber.astro";
 
-const res = await fetch("https://api-colombia.com/api/v1/TouristicAttraction", {
-    method: "GET",
-    headers: {
-        "Content-Type": "application/json",
-        },
-        });
-        const data = await res.json();
-        console.log(data);
-       
-        const imagenUrl = data.find(attraction => attraction.id===33).images;
-        console.log(imagenUrl)
+
 ---
 
 
