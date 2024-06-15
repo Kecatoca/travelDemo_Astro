@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()]
-  site: 'https://travelDemo_Astro.github.io',
+  site: 'https://traveldemo_astro.github.io',
   base: 'https://github.com/Kecatoca/travelDemo_Astro.git',
 });
